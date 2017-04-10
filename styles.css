@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  margin: 0px;
+}
+
+header {
+  background-color: #2B2B2B;
+  color: #8A8A8A;
+  min-height: 150px;
+  padding: 10px;
+}
+
+ul {
+  display: inline-block;
+  padding: 0;
+  display: none;
+}
+
+li {
+  display: inline-block;
+  margin: 70px 10px 0 0;
+  align-self: baseline;
+}
+
+.hamburger-menu {
+  width: 30px;
+  height: 30px;
+  background-image: url(images/menu-4-64.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  color: #8A8A8A;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+h3 {
+  margin: 8px 0 0 8px;
+}
+
+h5 {
+  margin: 8px 0 0 8px;
+}
+
+p {
+  margin: 8px 0 0 8px;
+}
+
+.admin-username {
+  float: right;
+}
+
+.card {
+  display: inline-block;
+  height: 360px;
+  width: 280px;
+  border: 2px solid magenta;
+  margin-left: 10px;
+}
+
+.card-web-address {
+  width: 90%;
+  border: 2px solid magenta;
+  background-color: #EFEFEF;
+  margin: 8px 0 0 8px;
+}
+
+.card-web-address p {
+  font-size: 12px;
+  margin: 0px;
+  min-height: 25px;
+  word-wrap: break-word;
+}
+
+.card-image {
+  background-image: url(images/office_space2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 130px;
+
+}
+
+.logo {
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 40px;
+  /*display: inline-block;*/
+  /*float: right;*/
+  /*position: relative;*/
+  /*top: 55px;*/
+  /*left: 0px;*/
+  /*margin-top: 55px;*/
+  margin: 0px auto;
+}
+
+.card-number {
+  color: #2DB9FE;
+  font-size: 30px;
+  margin-top: 0px;
+}
